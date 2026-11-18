@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "charliermarsh.ruff",
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "ms-python.mypy-type-checker",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "oxc.oxc-vscode",
+        "tombi-toml.tombi"
+    ]
+}

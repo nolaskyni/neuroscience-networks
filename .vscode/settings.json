@@ -1,0 +1,26 @@
+{
+    // Notebook cells use the formatter set for Python.
+    "notebook.formatOnSave.enabled": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode",
+        "editor.formatOnSave": true
+    },
+    "[toml]": {
+        "editor.defaultFormatter": "oxc.oxc-vscode",
+        "editor.formatOnSave": true
+    },
+    // Pylance's type checking is off so that the editor reports only mypy's
+    // errors, which follow the project's strict configuration.
+    "python.analysis.typeCheckingMode": "off",
+    // Use the mypy version installed in the project's environment instead of
+    // the extension's.
+    "mypy-type-checker.importStrategy": "fromEnvironment",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [
+        "tests"
+    ]
+}

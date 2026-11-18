@@ -1,0 +1,18 @@
+# uv ignores its own environment from inside the folder, but an environment
+# that another tool creates might not.
+.venv/
+
+# Python writes compiled bytecode here when it imports a module.
+__pycache__/
+
+# Jupyter autosaves notebooks here.
+.ipynb_checkpoints/
+
+# macOS Finder writes this file in each folder it opens.
+.DS_Store
+
+# Ignore the folder's contents, not the folder, so the shared files can be
+# re-included.
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
