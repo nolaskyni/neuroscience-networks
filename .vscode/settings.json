@@ -13,9 +13,10 @@
         "editor.defaultFormatter": "oxc.oxc-vscode",
         "editor.formatOnSave": true
     },
-    // Pylance's type checking is off so that the editor reports only mypy's
-    // errors, which follow the project's strict configuration.
-    "python.analysis.typeCheckingMode": "off",
+    // ty replaces Pylance as the language server. Its diagnostics are off so
+    // that the editor reports only mypy's errors, which follow the project's
+    // strict configuration.
+    "ty.diagnosticMode": "off",
     // Use the mypy version installed in the project's environment instead of
     // the extension's.
     "mypy-type-checker.importStrategy": "fromEnvironment",
