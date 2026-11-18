@@ -1,0 +1,3 @@
+# GitHub highlights the VS Code files as plain JSON, which marks their comments
+# as errors. VS Code reads them as JSON with comments.
+.vscode/*.json linguist-language=jsonc
